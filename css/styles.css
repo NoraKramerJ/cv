@@ -1,0 +1,172 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    /* text-align center will ceter everything inside the body to the middle, it only works if other elements don't have a width set
+    */
+    font-family: 'Merriweather', serif;
+}
+h1{
+    /* if we want to change the height line-height: 2; */
+    color: #66BFBF;
+    font-size: 5.625rem; /* to achieve dynamic size than can adjust with the viewer screen size setting, two ways:
+     percenatge: so 100% is equal to 16px, if we want it at 90px, so perecentage is (90*100)/16=562.5%
+    , or another way for dynamic size is em, each 1em=100%=16px, 90px=5.625em,
+    another option is rem: rem doesn't get affected by whatever font size was set up in the body*/
+    margin: 50px auto 0 auto;
+    /* width: 10%;
+     margin: 0 auto 0 auto ;
+   here when we set the value, like clock wise, starts from top,right, bottom,left, so here we set the top=0, right=auto,bottom=0,left=auto
+     we can also shorten the code above, if we say maring 0 auto, this by default will set the top and bottom to zero, and left and right to auto*/
+    font-family: 'Sacramento', cursive;}
+h2{
+    color: #66BFBF;
+    font-size:2.5rem ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    COLOR: #11999E;
+}
+
+.top-container{
+
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px 0;
+
+
+
+}
+.middle-container{
+
+    margin: 100px;
+
+
+}
+.bottom-container{
+
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+
+
+}
+.full{
+    text-decoration: underline;
+
+}
+
+.top-cloud{
+    position:absolute;
+    right: 300px;
+    top: 40px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left:250px;
+    bottom: 300px;
+
+}
+
+.skill-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+
+}
+.cycling{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+
+}
+.profileImage{
+    height:200px;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+}
+.footer-link{
+    color:#11999E;
+}
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+
+
+}
+/*.code-skill-description{
+    clear: left;
+    clear is used to have the text align
+    to whatever side we want away from the picture
+}
+.bike-skill-description{
+    clear:right;
+}*/
+
+hr{
+
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+
+}
+.copyRight{
+    color: #EAF6F6;
+    font-size: 0.85rem;
+    padding: 20px 0; /* 20px here represent top and bottom, 0 respresent left and right*/
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+
+}
+p{
+    line-height: 2;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+a{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    margin:10px 20px ;
+    text-decoration: none;
+    /* In here we set the top and bottom to 10px, left and right to 20px*/
+}
+a:hover{
+    color: #eaf6f6;
+}
